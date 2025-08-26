@@ -30,5 +30,4 @@ CREATE TABLE disciplinasxprofessores (
   FOREIGN KEY (codprofessor) REFERENCES professores (registro)
 );
 
-insert into professores(registro, nomeprof, telefoneprof, idadeprof, salarioprof) values (1, "Lucas", "12996531108", 16, 3400.00);
 select * from professores;
